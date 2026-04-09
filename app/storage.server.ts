@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "fs";
 
 export type StorageData = {
-  [id: string]: any
+  [eventId: string]: number;
 };
 
 export const getStorageData = (): StorageData => {
